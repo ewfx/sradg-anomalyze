@@ -1,0 +1,48 @@
+{
+    "iHub_Reconciliation": {
+        "file_path": "historical_reconciliation_data.csv",
+        "key_columns": [
+            "Company",
+            "Account",
+            "AU",
+            "Currency"
+        ],
+        "criteria_columns": [
+            "GL Balance",
+            "iHub Balance"
+        ],
+        "derived_columns": [
+            "Balance Difference"
+        ],
+        "historical_columns": [
+            "Account",
+            "Secondary Account",
+            "Primary Account"
+        ],
+        "date_columns": [
+            "As of Date"
+        ]
+    },
+    "Catalyst_Reconciliation": {
+        "file_path": "catalyst_daily_reconciliation.csv",
+        "key_columns": [
+            "TradeID"
+        ],
+        "criteria_columns": [
+            "Original_Price",
+            "Impact_Price",
+            "Original_Quantity",
+            "Impact_Quantity"
+        ],
+        "derived_columns": [
+            "QuantityDifference"
+        ],
+        "historical_columns": [
+            "DeskName",
+            "TradeID"
+        ],
+        "date_columns": [
+            "ReconDate"
+        ]
+    }
+}
