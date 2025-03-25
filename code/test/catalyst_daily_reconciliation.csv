@@ -1,0 +1,9 @@
+MatchStatus,ReconDate,Comment,QuantityDifference,TradeID,DeskName,ReconDate,Buy_Sell,Trade_Date,Settle_Date,Original_Quantity,Original_Price,Impact_Price,Price_Tolerance,Impact_Quantity,Quantity_Tolerance,Anomaly
+Quantity & Price Break,01/08/24,"[{Discrepancy identified, awaiting action}]",2,1001948,RMDS-Govt Bonds,01/08/24,S,01/05/24,01/07/24,42290,83.9,83.88032790584808,0.01,42288,1,Yes
+Quantity & Price Break,01/14/2024,[{Factor rounding is causing minor delta in quantity}],2,1001948,RMDS-Govt Bonds,01/14/2024,B,01/10/24,01/12/24,29383,68.3,68.25413425074761,0.01,29381,1,Yes
+Quantity & Price Break,01/01/24,[{Manual adjustment pending validation}],3,1059010,RMDS-Govt Bonds,01/01/24,B,12/27/2023,12/29/2023,46353,12.73,12.683363309228927,0.01,46350,1,Yes
+Quantity & Price Break,01/29/2024,"[{Data source issue, reconciliation in progress}]",2,1059010,RMDS-Agency OMIs,01/29/2024,S,01/26/2024,01/28/2024,43380,91.94,91.98101754995483,0.01,43378,1,No
+Price Break,02/17/2024,[{Price discrepancy beyond tolerance}],1,1059010,RMDS-Agency OMIs,02/17/2024,S,02/14/2024,02/16/2024,21124,28.53,28.56032096982549,0.01,21125,1,Yes
+Quantity & Price Break,03/01/24,[{Factor rounding is causing minor delta in quantity}],2,1059010,RMDS-Corp Bonds,03/01/24,S,02/27/2024,02/29/2024,26722,53.51,53.54549849719716,0.01,26720,1,Yes
+Price Break,03/07/24,[{Price discrepancy beyond tolerance}],1,1059010,RMDS-Corp Bonds,03/07/24,S,03/05/24,03/07/24,38899,22.94,22.913519268578224,0.01,38898,1,Yes
+Price Break,03/10/24,[{Price discrepancy beyond tolerance}],1,1059010,RMDS-Govt Bonds,03/10/24,B,03/07/24,03/09/24,11635,80.24,80.28766773159862,0.01,11634,1,No
