@@ -1,0 +1,5 @@
+pip install pandas bumpy
+pip install scikit-learn matplotlib script
+pip install matplotlib seaborn
+pip install streamline deep
+#All the required libraries as needed
